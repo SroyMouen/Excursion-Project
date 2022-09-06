@@ -3,6 +3,7 @@ body {
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    width: 100%;
 }
 
 div {
@@ -49,5 +50,16 @@ p a:hover {
 
     text-align: right; 
     color: grey;
+}
+
+@media only screen and (max-width: 750px) {
+    #camp {
+        max-width: 80%;
+    }
+    
+    video {
+
+        max-width: 50%;
+    }
 }
 
