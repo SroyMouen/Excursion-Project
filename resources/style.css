@@ -1,0 +1,53 @@
+body {
+    margin: 0%;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+div {
+    margin: 5px 5px;
+}
+
+h1 {
+
+    color: white; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    text-align: center; 
+}
+
+p, a {
+
+    text-align: center;
+    color:aquamarine; 
+    font-size: 16px;
+    text-decoration: none;
+    transition: font-size 150ms linear; 
+}
+
+p a:hover {
+
+    font-size: 25px
+
+}
+
+
+
+#travel_guide {
+
+    font-size: 21px; 
+    color: grey;
+}
+#phone_icon {
+
+    padding-top: 10px;
+}
+
+#copyright {
+
+    text-align: right; 
+    color: grey;
+}
+
